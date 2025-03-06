@@ -154,20 +154,20 @@ class ResumeAssistant():
 
 
     def main(self):
-        st.header("Your Main Uploads 📤")
-        st.markdown("**1. Upload your CV and a base cover letter.**\n\n")
+        st.header("1. Your Main Uploads 📤")
+        st.markdown("**Upload your CV and a base cover letter.**\n\n")
         self.upload_cv_and_letter()
 
-        st.header("Pre Analysis 📊")
-        st.markdown("**2. [Optional] Generate a pre-analysis of your profile's strength and weaknesses.**\n\n")
+        st.header("2. Pre Analysis 📊")
+        st.markdown("**[Optional] Generate a pre-analysis of your profile's strength and weaknesses.**\n\n")
         self.pre_analysis()
 
-        st.header("Opportunity Uploads")
-        st.markdown("**3. Paste, or upload that job / scholarship etc.. description.**\n\n")
+        st.header("3. Opportunity Uploads")
+        st.markdown("**Paste, or upload that job / scholarship etc.. description.**\n\n")
         self.opp_process()
 
-        st.header("Generation! 📝")
-        st.markdown("**4. Write any additional requests you would like to have (e.g. Draft a cold emailing focusing on ....) and Generate!**\n\n")
+        st.header("4. Generation! 📝")
+        st.markdown("**Write any additional requests you would like to have (e.g. Draft a cold emailing focusing on ....) and Generate!**\n\n")
         self.final_gen()
 
 
