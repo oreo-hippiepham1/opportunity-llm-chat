@@ -163,7 +163,7 @@ class ResumeAssistant():
         self.pre_analysis()
 
         st.header("Opportunity Uploads")
-        st.markdown("**3. Paste, or upload the description of that job / scholarship etc.. description.**\n\n")
+        st.markdown("**3. Paste, or upload that job / scholarship etc.. description.**\n\n")
         self.opp_process()
 
         st.header("Generation! 📝")
