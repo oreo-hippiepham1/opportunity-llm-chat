@@ -21,7 +21,7 @@ st.markdown(""
 "\n\nThis app is designed to help alleviate that process, by scraping off hopefully a few minutes from your application process, and freeing up your brain power."
 "\n\nThe app may be a bit wonky at times, but it does what it does - even saving 1 minute for each application, goes a long way!"
 "\n\n"
-
+"👈 **Open left sidebar to change model! (recommended - start with 4o-mini)**"
 )
 
 
