@@ -74,8 +74,8 @@ class ResumeAssistant():
     def pre_analysis(self):
         if 'analysis_result' not in st.session_state:
             st.session_state.analysis_result = None
+
         analyze_button = st.button("Analyze CV and Letter 📈")
-        container = st.container(height=250, border=True)
 
         if analyze_button:
             if st.session_state.get('cv_data') and st.session_state.get('letter_data'):
@@ -84,10 +84,13 @@ class ResumeAssistant():
                                                         st.session_state['letter_data'],
                                                         self.llm)
             else:
-                container.warning("Please upload CV and letter first to perform the analysis!")
+                st.warning("Please upload CV and letter first to perform the analysis!")
 
         if 'analysis_result' in st.session_state and st.session_state['analysis_result']:
+            container = st.container(height=200, border=True)
             container.write(st.session_state['analysis_result'].content)
+        else:
+            st.write("Generate a quick analysis, or skip this step.")
 
     def opp_process(self):
         if 'opp_desc_data' not in st.session_state:
