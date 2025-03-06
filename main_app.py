@@ -18,7 +18,7 @@ st.title("Resume App Assistant 🕵️‍♂️")
 st.markdown(""
 "In the current economy, job or scholarship opportunities are endless, but with that, comes the additional burden of hand-crafting a custom cover letter for each post. It gets even worse, when you want to draft a cold email to the recruiter, for a minor mistake or miscommunication can have dire consequences."
 
-"\n\nThis app is designed to help alleviate that process, by scraping off hopefully a few minutes from your application process, and freeing up your brain power:"
+"\n\nThis app is designed to help alleviate that process, by scraping off hopefully a few minutes from your application process, and freeing up your brain power."
 "\n\nThe app may be a bit wonky at times, but it does what it does - even saving 1 minute for each application, goes a long way!"
 "\n\n"
 
