@@ -21,7 +21,7 @@ def basic_chat(initial_system: str,
     result = {'content': {}}
     if llm.model_name == 'gpt-4o-mini':
         result = llm.invoke([SystemMessage(content=initial_system )])
-    elif llm.model_name == 'o1-mini':
+    elif llm.model_name == 'o1-mini' or llm.model_name == 'o3-mini':
         result = llm.invoke([HumanMessage(content=initial_system )])
     else:
         result['content']= {

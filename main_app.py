@@ -41,7 +41,7 @@ class ResumeAssistant():
             st.session_state.current_model = None
 
         selected_model = st.sidebar.selectbox("Choose the model",
-                                                ['gpt-4o-mini', 'o1-mini'],
+                                                ['gpt-4o-mini', 'o1-mini', 'o3-mini'],
                                                 index=0,
                                                 key='model_type')
         self.llm = get_llm()
