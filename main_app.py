@@ -45,7 +45,7 @@ class ResumeAssistant:
 
         selected_model = st.sidebar.selectbox(
             "Choose the model",
-            ["gpt-4o-mini", "o4-mini", "o3-mini", "gpt-4o-mini"],
+            ["gpt-4o-mini", "o4-mini", "o3-mini", "gpt-4o"],
             index=0,
             key="model_type",
         )
